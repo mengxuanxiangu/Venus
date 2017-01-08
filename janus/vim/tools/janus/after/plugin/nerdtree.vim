@@ -53,4 +53,6 @@ if janus#is_plugin_enabled("nerdtree")
       endif
     endif
   endfunction
+  let g:NERDTreeDirArrowExpandable = '+'
+  let g:NERDTreeDirArrowCollapsible = '~'
 endif
