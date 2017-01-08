@@ -441,6 +441,7 @@ Vim sugar for the UNIX shell commands that need it the most. Features include:
 * :Wall: Write every open window. Handy for kicking off tools like guard.
 * :SudoWrite: Write a privileged file with sudo.
 * :SudoEdit: Edit a privileged file with sudo.
+
 File type detection for sudo -e is based on original file name.
 
 New files created with a shebang line are automatically made executable.
