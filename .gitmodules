@@ -101,9 +101,6 @@
 [submodule "janus/vim/tools/repeat"]
 	path = janus/vim/tools/repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "janus/vim/tools/vim-snippets"]
-	path = janus/vim/tools/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
 [submodule "janus/vim/tools/dispatch"]
 	path = janus/vim/tools/dispatch
 	url = https://github.com/tpope/vim-dispatch.git
@@ -122,3 +119,9 @@
 [submodule "janus/vim/tools/vim-gitgutter"]
 	path = janus/vim/tools/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "janus/vim/tools/lightline"]
+	path = janus/vim/tools/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "janus/vim/tools/ale"]
+	path = janus/vim/tools/ale
+	url = https://github.com/w0rp/ale.git

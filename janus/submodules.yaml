@@ -23,72 +23,22 @@ submodules:
   # Colors
   #
   colors:
-    base16-vim:
-    getafe:
-    github:
-    irblack:
     molokai:
-    pyte:
-    sampler-pack:
     solarized:
-    vim-tomorrow-theme:
-    vividchalk:
-    janus-colors:
-      dependencies:
-        - sampler-pack
-
 
   # Langs
   #
   langs:
-    arduino:
-    coffeescript:
-      categories:
-        - coffeescript
-        - syntax
-    csv:
-      categories:
-        - csv
-        - syntax
-    cucumber:
-      categories:
-        - ruby
-        - rails
-        - syntax
-        - behavior driven development
-    elixir:
-    erlang:
     git:
       categories:
         - git
         - syntax
-    haml:
-      categories:
-        - ruby
-        - rails
-        - syntax
-    haskell:
     javascript:
-    less:
     markdown:
-    mustache_handlebars:
-    minitest:
-    nodejs:
     puppet:
-    rails:
-    rspec:
     ruby:
-    scala:
-    scss:
-    slim:
-    textile:
-    clojure:
     go:
-    liquid:
-    rdoc:
     json:
-    typescript:
-
 
   # Tools
   #
@@ -113,23 +63,13 @@ submodules:
     nerdcommenter:
     nerdtree:
     repeat:
-    snipmate:
-      dependencies:
-        - vim-addon-mw-utils
-        - tlib
-    vim-snippets:
-      dependencies:
-        - snipmate
     supertab:
     surround:
     syntastic:
     tagbar:
-    tlib:
     unimpaired:
-    vim-addon-mw-utils:
     vim-trailing-whitespace:
     vimwiki:
     zoomwin:
-    vroom:
     multiple-cursors:
     visualstar:

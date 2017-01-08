@@ -100,6 +100,18 @@ if has("gui_macvim") && has("gui_running")
   imap <D-8> <Esc>8gt
   map  <D-9> 9gt
   imap <D-9> <Esc>9gt
+	nnoremap H ^
+	nnoremap L g_
+	vnoremap H ^
+	vnoremap L g_
+
+	map <C-j> <nop>
+	map <C-k> <nop>
+	map <C-j> <C-W>j
+	map <C-k> <C-W>k
+	map <C-h> <C-W>h
+	map <C-l> <C-W>l
+
 else
   " Map command-[ and command-] to indenting or outdenting
   " while keeping the original selection in visual mode
@@ -152,6 +164,17 @@ else
   imap <C-8> <Esc>8gt
   map  <C-9> 9gt
   imap <C-9> <Esc>9gt
+	nnoremap H ^
+	nnoremap L g_
+	vnoremap H ^
+	vnoremap L g_
+
+	map <C-j> <nop>
+	map <C-k> <nop>
+	map <C-j> <C-W>j
+	map <C-k> <C-W>k
+	map <C-h> <C-W>h
+	map <C-l> <C-W>l
 endif
 
 ""

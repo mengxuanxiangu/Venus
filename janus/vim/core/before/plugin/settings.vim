@@ -11,7 +11,8 @@ syntax enable         " Turn on syntax highlighting allowing local overrides
 " Neovim disallow changing 'enconding' option after initialization
 " see https://github.com/neovim/neovim/pull/2929 for more details
 if !has('nvim')
-  set encoding=utf-8  " Set default encoding to UTF-8
+  set encoding=gb2312  " Set default encoding to UTF-8
+  set fileencodings=gb2312
 endif
 
 ""
@@ -19,11 +20,18 @@ endif
 ""
 
 set nowrap                        " don't wrap lines
-set tabstop=2                     " a tab is two spaces
-set shiftwidth=2                  " an autoindent (with <<) is two spaces
+set tabstop=4                     " a tab is two spaces
+set shiftwidth=4                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
 set list                          " Show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
+set mouse=""
+let mapleader = ","
+set t_Co=256
+set autoindent
+set colorcolumn=100
+syntax enable
+set bg=dark
 
 if exists("g:enable_mvim_shift_arrow")
   let macvim_hig_shift_movement = 1 " mvim shift-arrow-keys
@@ -46,6 +54,8 @@ set hlsearch    " highlight matches
 set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
+set cursorline
+
 
 ""
 "" Wild settings
@@ -75,6 +85,9 @@ set wildignore+=*.swp,*~,._*
 ""
 "" Backup and swap files
 ""
+set tags+=./../tags,./../../tags,./../../../tags,./../../../../tags
+hi cursorline   cterm=underline ctermfg=green
+:hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
 
 set backupdir^=~/.vim/_backup//    " where to put backup files.
 set directory^=~/.vim/_temp//      " where to put swap files.
