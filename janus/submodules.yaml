@@ -73,3 +73,5 @@ submodules:
     zoomwin:
     multiple-cursors:
     visualstar:
+    ale:
+    lightline:
