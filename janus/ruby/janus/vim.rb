@@ -4,7 +4,7 @@ module Janus
 
     # Folders
     def folders
-      %w[ _backup _temp ]
+      %w[ _backup _temp _undo ]
     end
   end
 end

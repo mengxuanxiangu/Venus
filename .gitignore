@@ -1,6 +1,7 @@
 # ViM files
 _backup
 _temp
+_undo
 .netrwhist
 
 # Vimius file

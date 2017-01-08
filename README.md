@@ -1,3 +1,4 @@
+This is copyed from [janus](https://github.com/carlhuda/janus)
 # Janus: Vim Distribution
 
 This is a distribution of plug-ins and mappings for Vim, Gvim and
@@ -425,6 +426,40 @@ This plugin causes all trailing whitespace to be highlighted in red.
 To fix the whitespace errors, just call :FixWhitespace.  By default it
 operates on the entire file.  Pass a range (or use V to select some lines)
 to restrict the portion of the file that gets fixed.
+
+## [eunuch.vim](https://github.com/tpope/vim-eunuch)
+Vim sugar for the UNIX shell commands that need it the most. Features include:
+
+:Remove: Delete a buffer and the file on disk simultaneously.
+:Unlink: Like :Remove, but keeps the now empty buffer.
+:Move: Rename a buffer and the file on disk simultaneously.
+:Rename: Like :Move, but relative to the current file's containing directory.
+:Chmod: Change the permissions of the current file.
+:Mkdir: Create a directory, defaulting to the parent of the current file.
+:Find: Run find and load the results into the quickfix list.
+:Locate: Run locate and load the results into the quickfix list.
+:Wall: Write every open window. Handy for kicking off tools like guard.
+:SudoWrite: Write a privileged file with sudo.
+:SudoEdit: Edit a privileged file with sudo.
+File type detection for sudo -e is based on original file name.
+New files created with a shebang line are automatically made executable.
+New init scripts are automatically prepopulated with /etc/init.d/skeleton.
+
+## [repeat.vim](https://github.com/tpope/vim-repeat)
+If you've ever tried using the . command after a plugin map, you were
+likely disappointed to discover it only repeated the last native command
+inside that map, rather than the map as a whole. That disappointment
+ends today. Repeat.vim remaps . in a way that plugins can tap into it.
+
+## [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object)
+Vim plugin that defines a new text object representing lines of code at
+the same indent level. Useful for python/vim scripts, etc
+
+## [NERD Commenter](https://github.com/scrooloose/nerdcommenter)
+Comment functions so powerful?no comment necessary.
+
+## [surround.vim](https://github.com/tpope/vim-surround)
+Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
 ## Additional Syntaxes
 

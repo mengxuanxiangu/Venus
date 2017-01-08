@@ -20,7 +20,7 @@ function backup_previous_install()
 function clone_janus()
 {
   # Clone Janus into .vim
-  git clone --recursive https://github.com/carlhuda/janus.git "${HOME}/.vim" \
+  git clone --recursive https://github.com/mengxuanxiangu/Venus.git "${HOME}/.vim" \
     || die "Could not clone the repository to ${HOME}/.vim"
 }
 
