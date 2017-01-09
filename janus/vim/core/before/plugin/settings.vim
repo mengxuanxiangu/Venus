@@ -11,8 +11,7 @@ syntax enable         " Turn on syntax highlighting allowing local overrides
 " Neovim disallow changing 'enconding' option after initialization
 " see https://github.com/neovim/neovim/pull/2929 for more details
 if !has('nvim')
-  set encoding=gb2312  " Set default encoding to UTF-8
-  set fileencodings=gb2312
+  set encoding=utf-8  " Set default encoding to UTF-8
 endif
 
 ""
