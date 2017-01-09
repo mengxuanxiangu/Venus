@@ -125,3 +125,6 @@
 [submodule "janus/vim/tools/ale"]
 	path = janus/vim/tools/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "janus/vim/tools/comlog"]
+	path = janus/vim/tools/comlog
+	url = https://github.com/mengxuanxiangu/comlog.vim.git
